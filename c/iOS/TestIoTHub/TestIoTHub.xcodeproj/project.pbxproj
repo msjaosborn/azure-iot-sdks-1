@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A8DCDFA1C7F882B00D2A02B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8DCDF91C7F882B00D2A02B /* main.m */; };
+		1A8DCDFD1C7F882B00D2A02B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8DCDFC1C7F882B00D2A02B /* AppDelegate.m */; };
+		1A8DCE001C7F882B00D2A02B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8DCDFF1C7F882B00D2A02B /* ViewController.m */; };
+		1A8DCE031C7F882B00D2A02B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A8DCE011C7F882B00D2A02B /* Main.storyboard */; };
+		1A8DCE061C7F882B00D2A02B /* TestIoTHub.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1A8DCE041C7F882B00D2A02B /* TestIoTHub.xcdatamodeld */; };
+		1A8DCE081C7F882B00D2A02B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A8DCE071C7F882B00D2A02B /* Assets.xcassets */; };
+		1A8DCE0B1C7F882B00D2A02B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A8DCE091C7F882B00D2A02B /* LaunchScreen.storyboard */; };
+		1A8DCE161C7F882B00D2A02B /* TestIoTHubUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8DCE151C7F882B00D2A02B /* TestIoTHubUITests.m */; };
+		1AA9116C1D596FDF008F7906 /* certs.c in Sources */ = {isa = PBXBuildFile; fileRef = 1AA9116B1D596FDF008F7906 /* certs.c */; };
+		1AF3D1541D5AD0AB00C1E30E /* libAzureIoT.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AF3D1531D5AD0AB00C1E30E /* libAzureIoT.a */; };
+		1AF3D1581D5AD6F300C1E30E /* openssl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AF3D1571D5AD6F300C1E30E /* openssl.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A8DCE121C7F882B00D2A02B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A8DCDED1C7F882B00D2A02B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A8DCDF41C7F882B00D2A02B;
+			remoteInfo = TestIoTHub;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A8DCDF51C7F882B00D2A02B /* TestIoTHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestIoTHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A8DCDF91C7F882B00D2A02B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1A8DCDFB1C7F882B00D2A02B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1A8DCDFC1C7F882B00D2A02B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1A8DCDFE1C7F882B00D2A02B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1A8DCDFF1C7F882B00D2A02B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1A8DCE021C7F882B00D2A02B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1A8DCE051C7F882B00D2A02B /* TestIoTHub.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TestIoTHub.xcdatamodel; sourceTree = "<group>"; };
+		1A8DCE071C7F882B00D2A02B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A8DCE0A1C7F882B00D2A02B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1A8DCE0C1C7F882B00D2A02B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A8DCE111C7F882B00D2A02B /* TestIoTHubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestIoTHubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A8DCE151C7F882B00D2A02B /* TestIoTHubUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestIoTHubUITests.m; sourceTree = "<group>"; };
+		1A8DCE171C7F882B00D2A02B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AA9116B1D596FDF008F7906 /* certs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = certs.c; sourceTree = "<group>"; };
+		1AF3D1531D5AD0AB00C1E30E /* libAzureIoT.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAzureIoT.a; path = "../DerivedData/AzureIoT/Build/Products/Debug-iphonesimulator/libAzureIoT.a"; sourceTree = "<group>"; };
+		1AF3D1571D5AD6F300C1E30E /* openssl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = openssl.framework; path = ../AzureIoT/openssl.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A8DCDF21C7F882B00D2A02B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AF3D1581D5AD6F300C1E30E /* openssl.framework in Frameworks */,
+				1AF3D1541D5AD0AB00C1E30E /* libAzureIoT.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A8DCE0E1C7F882B00D2A02B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A8DCDEC1C7F882B00D2A02B = {
+			isa = PBXGroup;
+			children = (
+				1A8DCDF71C7F882B00D2A02B /* TestIoTHub */,
+				1A8DCE141C7F882B00D2A02B /* TestIoTHubUITests */,
+				1A8DCDF61C7F882B00D2A02B /* Products */,
+				1AF3D1531D5AD0AB00C1E30E /* libAzureIoT.a */,
+				1AF3D1571D5AD6F300C1E30E /* openssl.framework */,
+			);
+			sourceTree = "<group>";
+		};
+		1A8DCDF61C7F882B00D2A02B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A8DCDF51C7F882B00D2A02B /* TestIoTHub.app */,
+				1A8DCE111C7F882B00D2A02B /* TestIoTHubUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A8DCDF71C7F882B00D2A02B /* TestIoTHub */ = {
+			isa = PBXGroup;
+			children = (
+				1AA9116B1D596FDF008F7906 /* certs.c */,
+				1A8DCDFB1C7F882B00D2A02B /* AppDelegate.h */,
+				1A8DCDFC1C7F882B00D2A02B /* AppDelegate.m */,
+				1A8DCDFE1C7F882B00D2A02B /* ViewController.h */,
+				1A8DCDFF1C7F882B00D2A02B /* ViewController.m */,
+				1A8DCE011C7F882B00D2A02B /* Main.storyboard */,
+				1A8DCE071C7F882B00D2A02B /* Assets.xcassets */,
+				1A8DCE091C7F882B00D2A02B /* LaunchScreen.storyboard */,
+				1A8DCE0C1C7F882B00D2A02B /* Info.plist */,
+				1A8DCE041C7F882B00D2A02B /* TestIoTHub.xcdatamodeld */,
+				1A8DCDF81C7F882B00D2A02B /* Supporting Files */,
+			);
+			path = TestIoTHub;
+			sourceTree = "<group>";
+		};
+		1A8DCDF81C7F882B00D2A02B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A8DCDF91C7F882B00D2A02B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1A8DCE141C7F882B00D2A02B /* TestIoTHubUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1A8DCE151C7F882B00D2A02B /* TestIoTHubUITests.m */,
+				1A8DCE171C7F882B00D2A02B /* Info.plist */,
+			);
+			path = TestIoTHubUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A8DCDF41C7F882B00D2A02B /* TestIoTHub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A8DCE1A1C7F882B00D2A02B /* Build configuration list for PBXNativeTarget "TestIoTHub" */;
+			buildPhases = (
+				1A8DCDF11C7F882B00D2A02B /* Sources */,
+				1A8DCDF21C7F882B00D2A02B /* Frameworks */,
+				1A8DCDF31C7F882B00D2A02B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestIoTHub;
+			productName = TestIoTHub;
+			productReference = 1A8DCDF51C7F882B00D2A02B /* TestIoTHub.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1A8DCE101C7F882B00D2A02B /* TestIoTHubUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A8DCE1D1C7F882B00D2A02B /* Build configuration list for PBXNativeTarget "TestIoTHubUITests" */;
+			buildPhases = (
+				1A8DCE0D1C7F882B00D2A02B /* Sources */,
+				1A8DCE0E1C7F882B00D2A02B /* Frameworks */,
+				1A8DCE0F1C7F882B00D2A02B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A8DCE131C7F882B00D2A02B /* PBXTargetDependency */,
+			);
+			name = TestIoTHubUITests;
+			productName = TestIoTHubUITests;
+			productReference = 1A8DCE111C7F882B00D2A02B /* TestIoTHubUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A8DCDED1C7F882B00D2A02B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Microsoft;
+				TargetAttributes = {
+					1A8DCDF41C7F882B00D2A02B = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 7R5KBZR79B;
+					};
+					1A8DCE101C7F882B00D2A02B = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 1A8DCDF41C7F882B00D2A02B;
+					};
+				};
+			};
+			buildConfigurationList = 1A8DCDF01C7F882B00D2A02B /* Build configuration list for PBXProject "TestIoTHub" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A8DCDEC1C7F882B00D2A02B;
+			productRefGroup = 1A8DCDF61C7F882B00D2A02B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A8DCDF41C7F882B00D2A02B /* TestIoTHub */,
+				1A8DCE101C7F882B00D2A02B /* TestIoTHubUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A8DCDF31C7F882B00D2A02B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A8DCE0B1C7F882B00D2A02B /* LaunchScreen.storyboard in Resources */,
+				1A8DCE081C7F882B00D2A02B /* Assets.xcassets in Resources */,
+				1A8DCE031C7F882B00D2A02B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A8DCE0F1C7F882B00D2A02B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A8DCDF11C7F882B00D2A02B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A8DCE001C7F882B00D2A02B /* ViewController.m in Sources */,
+				1A8DCDFD1C7F882B00D2A02B /* AppDelegate.m in Sources */,
+				1A8DCE061C7F882B00D2A02B /* TestIoTHub.xcdatamodeld in Sources */,
+				1A8DCDFA1C7F882B00D2A02B /* main.m in Sources */,
+				1AA9116C1D596FDF008F7906 /* certs.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A8DCE0D1C7F882B00D2A02B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A8DCE161C7F882B00D2A02B /* TestIoTHubUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A8DCE131C7F882B00D2A02B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A8DCDF41C7F882B00D2A02B /* TestIoTHub */;
+			targetProxy = 1A8DCE121C7F882B00D2A02B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1A8DCE011C7F882B00D2A02B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A8DCE021C7F882B00D2A02B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1A8DCE091C7F882B00D2A02B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A8DCE0A1C7F882B00D2A02B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A8DCE181C7F882B00D2A02B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = ../AzureIoT;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LIBRARY_SEARCH_PATHS = "";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "../../iothub_client/inc ../../azure-c-shared-utility/inc ../../certs";
+			};
+			name = Debug;
+		};
+		1A8DCE191C7F882B00D2A02B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = ../AzureIoT;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LIBRARY_SEARCH_PATHS = "";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "../../iothub_client/inc ../../azure-c-shared-utility/inc ../../certs";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A8DCE1B1C7F882B00D2A02B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				HEADER_SEARCH_PATHS = (
+					../iothub_client/inc,
+					"../azure-c-shared-utility/inc",
+					../certs,
+				);
+				INFOPLIST_FILE = TestIoTHub/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.TestIoTHub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		1A8DCE1C1C7F882B00D2A02B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				HEADER_SEARCH_PATHS = (
+					../iothub_client/inc,
+					"../azure-c-shared-utility/inc",
+					../certs,
+				);
+				INFOPLIST_FILE = TestIoTHub/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.TestIoTHub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		1A8DCE1E1C7F882B00D2A02B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TestIoTHubUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.TestIoTHubUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TestIoTHub;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		1A8DCE1F1C7F882B00D2A02B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TestIoTHubUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.TestIoTHubUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TestIoTHub;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A8DCDF01C7F882B00D2A02B /* Build configuration list for PBXProject "TestIoTHub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A8DCE181C7F882B00D2A02B /* Debug */,
+				1A8DCE191C7F882B00D2A02B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A8DCE1A1C7F882B00D2A02B /* Build configuration list for PBXNativeTarget "TestIoTHub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A8DCE1B1C7F882B00D2A02B /* Debug */,
+				1A8DCE1C1C7F882B00D2A02B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A8DCE1D1C7F882B00D2A02B /* Build configuration list for PBXNativeTarget "TestIoTHubUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A8DCE1E1C7F882B00D2A02B /* Debug */,
+				1A8DCE1F1C7F882B00D2A02B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1A8DCE041C7F882B00D2A02B /* TestIoTHub.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1A8DCE051C7F882B00D2A02B /* TestIoTHub.xcdatamodel */,
+			);
+			currentVersion = 1A8DCE051C7F882B00D2A02B /* TestIoTHub.xcdatamodel */;
+			path = TestIoTHub.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1A8DCDED1C7F882B00D2A02B /* Project object */;
+}

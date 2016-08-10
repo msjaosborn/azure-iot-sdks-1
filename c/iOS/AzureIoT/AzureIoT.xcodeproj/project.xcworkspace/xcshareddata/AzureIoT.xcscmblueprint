@@ -1,0 +1,51 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "5411F5772D0A13698869E122188A8DACF6CF841F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "0CECC5EEF5128167169657560B8BFA74E9116895" : 0,
+    "81C8BF857D6B92AE520F0ED2270E304C544D0980" : 0,
+    "5411F5772D0A13698869E122188A8DACF6CF841F" : 0,
+    "3D4C1E7AA03CC837211659F9E4E961761BEFCD83" : 0,
+    "DAF0552197E3AB68DCC15C28A891877C0D0E6981" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F158DBBF-9D95-4AAB-B6B3-52DC8AE3F7F1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "0CECC5EEF5128167169657560B8BFA74E9116895" : "azure-iot-sdks\/c\/azure-uamqp-c\/",
+    "81C8BF857D6B92AE520F0ED2270E304C544D0980" : "azure-iot-sdks\/c\/azure-umqtt-c\/",
+    "5411F5772D0A13698869E122188A8DACF6CF841F" : "azure-iot-sdks\/",
+    "3D4C1E7AA03CC837211659F9E4E961761BEFCD83" : "azure-iot-sdks\/c\/azure-c-shared-utility\/",
+    "DAF0552197E3AB68DCC15C28A891877C0D0E6981" : "azure-iot-sdks\/c\/azure-uamqp-c\/libwebsockets\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "AzureIoT",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "c\/AzureIoT\/AzureIoT.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Azure\/azure-uamqp-c.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0CECC5EEF5128167169657560B8BFA74E9116895"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Azure\/azure-c-shared-utility.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3D4C1E7AA03CC837211659F9E4E961761BEFCD83"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Azure\/azure-iot-sdks.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5411F5772D0A13698869E122188A8DACF6CF841F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Azure\/azure-umqtt-c.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "81C8BF857D6B92AE520F0ED2270E304C544D0980"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/warmcat\/libwebsockets.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DAF0552197E3AB68DCC15C28A891877C0D0E6981"
+    }
+  ]
+}

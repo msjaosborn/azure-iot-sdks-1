@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A5F11691D5AB6CD00BEB5B6 /* mach_gettime.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A5F11681D5AB6CD00BEB5B6 /* mach_gettime.c */; };
+		1A5F116D1D5ABAB000BEB5B6 /* optionhandler.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A5F116A1D5ABAB000BEB5B6 /* optionhandler.c */; };
+		1A5F116E1D5ABAB000BEB5B6 /* x509_openssl.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A5F116B1D5ABAB000BEB5B6 /* x509_openssl.c */; };
+		1AA911641D540ABF008F7906 /* openssl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AA911621D540ABF008F7906 /* openssl.framework */; };
+		1AA9116A1D596EAA008F7906 /* certs.c in Sources */ = {isa = PBXBuildFile; fileRef = 1AA911671D596EAA008F7906 /* certs.c */; };
+		1ADB74181D3EC82B00422EFA /* AzureIoT.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1ADB74171D3EC82B00422EFA /* AzureIoT.h */; };
+		1ADB741A1D3EC82B00422EFA /* AzureIoT.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADB74191D3EC82B00422EFA /* AzureIoT.m */; };
+		1ADB742C1D3EC85D00422EFA /* blob.c in Sources */ = {isa = PBXBuildFile; fileRef = 1ADB74211D3EC85D00422EFA /* blob.c */; };
+		1ADB742D1D3EC85D00422EFA /* iothub_client.c in Sources */ = {isa = PBXBuildFile; fileRef = 1ADB74221D3EC85D00422EFA /* iothub_client.c */; };
+		1ADB742E1D3EC85D00422EFA /* iothub_client_ll.c in Sources */ = {isa = PBXBuildFile; fileRef = 1ADB74231D3EC85D00422EFA /* iothub_client_ll.c */; };
+		1ADB74301D3EC85D00422EFA /* iothub_message.c in Sources */ = {isa = PBXBuildFile; fileRef = 1ADB74251D3EC85D00422EFA /* iothub_message.c */; };
+		1ADB74311D3EC85D00422EFA /* iothubtransport.c in Sources */ = {isa = PBXBuildFile; fileRef = 1ADB74261D3EC85D00422EFA /* iothubtransport.c */; };
+		1ADB74321D3EC85D00422EFA /* iothubtransportamqp.c in Sources */ = {isa = PBXBuildFile; fileRef = 1ADB74271D3EC85D00422EFA /* iothubtransportamqp.c */; };
+		1ADB74341D3EC85D00422EFA /* iothubtransporthttp.c in Sources */ = {isa = PBXBuildFile; fileRef = 1ADB74291D3EC85D00422EFA /* iothubtransporthttp.c */; };
+		1ADB74351D3EC85D00422EFA /* iothubtransportmqtt.c in Sources */ = {isa = PBXBuildFile; fileRef = 1ADB742A1D3EC85D00422EFA /* iothubtransportmqtt.c */; };
+		1ADB74361D3EC85D00422EFA /* version.c in Sources */ = {isa = PBXBuildFile; fileRef = 1ADB742B1D3EC85D00422EFA /* version.c */; };
+		1ADB74571D3ECA9400422EFA /* base64.c in Sources */ = {isa = PBXBuildFile; fileRef = 1ADB74381D3ECA9400422EFA /* base64.c */; };
+		1ADB74581D3ECA9400422EFA /* buffer.c in Sources */ = {isa = PBXBuildFile; fileRef = 1ADB74391D3ECA9400422EFA /* buffer.c */; };
+		1ADB74591D3ECA9400422EFA /* consolelogger.c in Sources */ = {isa = PBXBuildFile; fileRef = 1ADB743A1D3ECA9400422EFA /* consolelogger.c */; };
+		1ADB745A1D3ECA9400422EFA /* constbuffer.c in Sources */ = {isa = PBXBuildFile; fileRef = 1ADB743B1D3ECA9400422EFA /* constbuffer.c */; };
+		1ADB745B1D3ECA9400422EFA /* constmap.c in Sources */ = {isa = PBXBuildFile; fileRef = 1ADB743C1D3ECA9400422EFA /* constmap.c */; };
+		1ADB745C1D3ECA9400422EFA /* crt_abstractions.c in Sources */ = {isa = PBXBuildFile; fileRef = 1ADB743D1D3ECA9400422EFA /* crt_abstractions.c */; };
+		1ADB745D1D3ECA9400422EFA /* doublylinkedlist.c in Sources */ = {isa = PBXBuildFile; fileRef = 1ADB743E1D3ECA9400422EFA /* doublylinkedlist.c */; };
+		1ADB745E1D3ECA9400422EFA /* gb_stdio.c in Sources */ = {isa = PBXBuildFile; fileRef = 1ADB743F1D3ECA9400422EFA /* gb_stdio.c */; };
+		1ADB745F1D3ECA9400422EFA /* gb_time.c in Sources */ = {isa = PBXBuildFile; fileRef = 1ADB74401D3ECA9400422EFA /* gb_time.c */; };
+		1ADB74601D3ECA9400422EFA /* gballoc.c in Sources */ = {isa = PBXBuildFile; fileRef = 1ADB74411D3ECA9400422EFA /* gballoc.c */; };
+		1ADB74611D3ECA9400422EFA /* hmac.c in Sources */ = {isa = PBXBuildFile; fileRef = 1ADB74421D3ECA9400422EFA /* hmac.c */; };
+		1ADB74621D3ECA9400422EFA /* hmacsha256.c in Sources */ = {isa = PBXBuildFile; fileRef = 1ADB74431D3ECA9400422EFA /* hmacsha256.c */; };
+		1ADB74631D3ECA9400422EFA /* httpapiex.c in Sources */ = {isa = PBXBuildFile; fileRef = 1ADB74441D3ECA9400422EFA /* httpapiex.c */; };
+		1ADB74641D3ECA9400422EFA /* httpapiexsas.c in Sources */ = {isa = PBXBuildFile; fileRef = 1ADB74451D3ECA9400422EFA /* httpapiexsas.c */; };
+		1ADB74651D3ECA9400422EFA /* httpheaders.c in Sources */ = {isa = PBXBuildFile; fileRef = 1ADB74461D3ECA9400422EFA /* httpheaders.c */; };
+		1ADB74661D3ECA9400422EFA /* list.c in Sources */ = {isa = PBXBuildFile; fileRef = 1ADB74471D3ECA9400422EFA /* list.c */; };
+		1ADB74671D3ECA9400422EFA /* map.c in Sources */ = {isa = PBXBuildFile; fileRef = 1ADB74481D3ECA9400422EFA /* map.c */; };
+		1ADB74681D3ECA9400422EFA /* sastoken.c in Sources */ = {isa = PBXBuildFile; fileRef = 1ADB74491D3ECA9400422EFA /* sastoken.c */; };
+		1ADB74691D3ECA9400422EFA /* sha1.c in Sources */ = {isa = PBXBuildFile; fileRef = 1ADB744A1D3ECA9400422EFA /* sha1.c */; };
+		1ADB746A1D3ECA9400422EFA /* sha224.c in Sources */ = {isa = PBXBuildFile; fileRef = 1ADB744B1D3ECA9400422EFA /* sha224.c */; };
+		1ADB746B1D3ECA9400422EFA /* sha384-512.c in Sources */ = {isa = PBXBuildFile; fileRef = 1ADB744C1D3ECA9400422EFA /* sha384-512.c */; };
+		1ADB746C1D3ECA9400422EFA /* string_tokenizer.c in Sources */ = {isa = PBXBuildFile; fileRef = 1ADB744D1D3ECA9400422EFA /* string_tokenizer.c */; };
+		1ADB746D1D3ECA9400422EFA /* strings.c in Sources */ = {isa = PBXBuildFile; fileRef = 1ADB744E1D3ECA9400422EFA /* strings.c */; };
+		1ADB746E1D3ECA9400422EFA /* tlsio_openssl.c in Sources */ = {isa = PBXBuildFile; fileRef = 1ADB744F1D3ECA9400422EFA /* tlsio_openssl.c */; };
+		1ADB74711D3ECA9400422EFA /* urlencode.c in Sources */ = {isa = PBXBuildFile; fileRef = 1ADB74521D3ECA9400422EFA /* urlencode.c */; };
+		1ADB74721D3ECA9400422EFA /* usha.c in Sources */ = {isa = PBXBuildFile; fileRef = 1ADB74531D3ECA9400422EFA /* usha.c */; };
+		1ADB74731D3ECA9400422EFA /* vector.c in Sources */ = {isa = PBXBuildFile; fileRef = 1ADB74541D3ECA9400422EFA /* vector.c */; };
+		1ADB74741D3ECA9400422EFA /* xio.c in Sources */ = {isa = PBXBuildFile; fileRef = 1ADB74551D3ECA9400422EFA /* xio.c */; };
+		1ADB74751D3ECA9400422EFA /* xlogging.c in Sources */ = {isa = PBXBuildFile; fileRef = 1ADB74561D3ECA9400422EFA /* xlogging.c */; };
+		1ADB74AB1D3ECBF700422EFA /* mqtt_client.c in Sources */ = {isa = PBXBuildFile; fileRef = 1ADB74A81D3ECBF700422EFA /* mqtt_client.c */; };
+		1ADB74AC1D3ECBF700422EFA /* mqtt_codec.c in Sources */ = {isa = PBXBuildFile; fileRef = 1ADB74A91D3ECBF700422EFA /* mqtt_codec.c */; };
+		1ADB74AD1D3ECBF700422EFA /* mqtt_message.c in Sources */ = {isa = PBXBuildFile; fileRef = 1ADB74AA1D3ECBF700422EFA /* mqtt_message.c */; };
+		1AEFB15E1D53B30300A0FB92 /* agenttime.c in Sources */ = {isa = PBXBuildFile; fileRef = 1AEFB13D1D53B30300A0FB92 /* agenttime.c */; };
+		1AEFB1601D53B30300A0FB92 /* condition_pthreads.c in Sources */ = {isa = PBXBuildFile; fileRef = 1AEFB13F1D53B30300A0FB92 /* condition_pthreads.c */; };
+		1AEFB1631D53B30300A0FB92 /* httpapi_compact.c in Sources */ = {isa = PBXBuildFile; fileRef = 1AEFB1421D53B30300A0FB92 /* httpapi_compact.c */; };
+		1AEFB1691D53B30300A0FB92 /* lock_pthreads.c in Sources */ = {isa = PBXBuildFile; fileRef = 1AEFB1481D53B30300A0FB92 /* lock_pthreads.c */; };
+		1AEFB16C1D53B30300A0FB92 /* platform_linux.c in Sources */ = {isa = PBXBuildFile; fileRef = 1AEFB14B1D53B30300A0FB92 /* platform_linux.c */; };
+		1AEFB1701D53B30300A0FB92 /* socketio_berkeley.c in Sources */ = {isa = PBXBuildFile; fileRef = 1AEFB14F1D53B30300A0FB92 /* socketio_berkeley.c */; };
+		1AEFB1741D53B30300A0FB92 /* threadapi_pthreads.c in Sources */ = {isa = PBXBuildFile; fileRef = 1AEFB1541D53B30300A0FB92 /* threadapi_pthreads.c */; };
+		1AEFB1771D53B30300A0FB92 /* tickcounter_linux.c in Sources */ = {isa = PBXBuildFile; fileRef = 1AEFB1571D53B30300A0FB92 /* tickcounter_linux.c */; };
+		1AEFB17B1D53B30300A0FB92 /* uniqueid_linux.c in Sources */ = {isa = PBXBuildFile; fileRef = 1AEFB15B1D53B30300A0FB92 /* uniqueid_linux.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1ADB74121D3EC82B00422EFA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				1ADB74181D3EC82B00422EFA /* AzureIoT.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1A5F11681D5AB6CD00BEB5B6 /* mach_gettime.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mach_gettime.c; sourceTree = "<group>"; };
+		1A5F116A1D5ABAB000BEB5B6 /* optionhandler.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = optionhandler.c; sourceTree = "<group>"; };
+		1A5F116B1D5ABAB000BEB5B6 /* x509_openssl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = x509_openssl.c; sourceTree = "<group>"; };
+		1AA911621D540ABF008F7906 /* openssl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = openssl.framework; sourceTree = "<group>"; };
+		1AA911671D596EAA008F7906 /* certs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = certs.c; sourceTree = "<group>"; };
+		1AA911681D596EAA008F7906 /* certs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = certs.h; sourceTree = "<group>"; };
+		1AA911691D596EAA008F7906 /* ms.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = ms.der; sourceTree = "<group>"; };
+		1ADB74141D3EC82B00422EFA /* libAzureIoT.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAzureIoT.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ADB74171D3EC82B00422EFA /* AzureIoT.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AzureIoT.h; sourceTree = "<group>"; };
+		1ADB74191D3EC82B00422EFA /* AzureIoT.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AzureIoT.m; sourceTree = "<group>"; };
+		1ADB74211D3EC85D00422EFA /* blob.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = blob.c; sourceTree = "<group>"; };
+		1ADB74221D3EC85D00422EFA /* iothub_client.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = iothub_client.c; sourceTree = "<group>"; };
+		1ADB74231D3EC85D00422EFA /* iothub_client_ll.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = iothub_client_ll.c; sourceTree = "<group>"; };
+		1ADB74251D3EC85D00422EFA /* iothub_message.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = iothub_message.c; sourceTree = "<group>"; };
+		1ADB74261D3EC85D00422EFA /* iothubtransport.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = iothubtransport.c; sourceTree = "<group>"; };
+		1ADB74271D3EC85D00422EFA /* iothubtransportamqp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = iothubtransportamqp.c; sourceTree = "<group>"; };
+		1ADB74291D3EC85D00422EFA /* iothubtransporthttp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = iothubtransporthttp.c; sourceTree = "<group>"; };
+		1ADB742A1D3EC85D00422EFA /* iothubtransportmqtt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = iothubtransportmqtt.c; sourceTree = "<group>"; };
+		1ADB742B1D3EC85D00422EFA /* version.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = version.c; sourceTree = "<group>"; };
+		1ADB74381D3ECA9400422EFA /* base64.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = base64.c; sourceTree = "<group>"; };
+		1ADB74391D3ECA9400422EFA /* buffer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = buffer.c; sourceTree = "<group>"; };
+		1ADB743A1D3ECA9400422EFA /* consolelogger.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = consolelogger.c; sourceTree = "<group>"; };
+		1ADB743B1D3ECA9400422EFA /* constbuffer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = constbuffer.c; sourceTree = "<group>"; };
+		1ADB743C1D3ECA9400422EFA /* constmap.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = constmap.c; sourceTree = "<group>"; };
+		1ADB743D1D3ECA9400422EFA /* crt_abstractions.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = crt_abstractions.c; sourceTree = "<group>"; };
+		1ADB743E1D3ECA9400422EFA /* doublylinkedlist.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = doublylinkedlist.c; sourceTree = "<group>"; };
+		1ADB743F1D3ECA9400422EFA /* gb_stdio.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gb_stdio.c; sourceTree = "<group>"; };
+		1ADB74401D3ECA9400422EFA /* gb_time.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gb_time.c; sourceTree = "<group>"; };
+		1ADB74411D3ECA9400422EFA /* gballoc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gballoc.c; sourceTree = "<group>"; };
+		1ADB74421D3ECA9400422EFA /* hmac.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hmac.c; sourceTree = "<group>"; };
+		1ADB74431D3ECA9400422EFA /* hmacsha256.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hmacsha256.c; sourceTree = "<group>"; };
+		1ADB74441D3ECA9400422EFA /* httpapiex.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = httpapiex.c; sourceTree = "<group>"; };
+		1ADB74451D3ECA9400422EFA /* httpapiexsas.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = httpapiexsas.c; sourceTree = "<group>"; };
+		1ADB74461D3ECA9400422EFA /* httpheaders.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = httpheaders.c; sourceTree = "<group>"; };
+		1ADB74471D3ECA9400422EFA /* list.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = list.c; sourceTree = "<group>"; };
+		1ADB74481D3ECA9400422EFA /* map.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = map.c; sourceTree = "<group>"; };
+		1ADB74491D3ECA9400422EFA /* sastoken.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sastoken.c; sourceTree = "<group>"; };
+		1ADB744A1D3ECA9400422EFA /* sha1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sha1.c; sourceTree = "<group>"; };
+		1ADB744B1D3ECA9400422EFA /* sha224.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sha224.c; sourceTree = "<group>"; };
+		1ADB744C1D3ECA9400422EFA /* sha384-512.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "sha384-512.c"; sourceTree = "<group>"; };
+		1ADB744D1D3ECA9400422EFA /* string_tokenizer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = string_tokenizer.c; sourceTree = "<group>"; };
+		1ADB744E1D3ECA9400422EFA /* strings.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = strings.c; sourceTree = "<group>"; };
+		1ADB744F1D3ECA9400422EFA /* tlsio_openssl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tlsio_openssl.c; sourceTree = "<group>"; };
+		1ADB74521D3ECA9400422EFA /* urlencode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = urlencode.c; sourceTree = "<group>"; };
+		1ADB74531D3ECA9400422EFA /* usha.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = usha.c; sourceTree = "<group>"; };
+		1ADB74541D3ECA9400422EFA /* vector.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = vector.c; sourceTree = "<group>"; };
+		1ADB74551D3ECA9400422EFA /* xio.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xio.c; sourceTree = "<group>"; };
+		1ADB74561D3ECA9400422EFA /* xlogging.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xlogging.c; sourceTree = "<group>"; };
+		1ADB74A81D3ECBF700422EFA /* mqtt_client.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mqtt_client.c; sourceTree = "<group>"; };
+		1ADB74A91D3ECBF700422EFA /* mqtt_codec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mqtt_codec.c; sourceTree = "<group>"; };
+		1ADB74AA1D3ECBF700422EFA /* mqtt_message.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mqtt_message.c; sourceTree = "<group>"; };
+		1AEFB13D1D53B30300A0FB92 /* agenttime.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = agenttime.c; sourceTree = "<group>"; };
+		1AEFB13F1D53B30300A0FB92 /* condition_pthreads.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = condition_pthreads.c; sourceTree = "<group>"; };
+		1AEFB1421D53B30300A0FB92 /* httpapi_compact.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = httpapi_compact.c; sourceTree = "<group>"; };
+		1AEFB1481D53B30300A0FB92 /* lock_pthreads.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lock_pthreads.c; sourceTree = "<group>"; };
+		1AEFB14B1D53B30300A0FB92 /* platform_linux.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = platform_linux.c; sourceTree = "<group>"; };
+		1AEFB14F1D53B30300A0FB92 /* socketio_berkeley.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = socketio_berkeley.c; sourceTree = "<group>"; };
+		1AEFB1541D53B30300A0FB92 /* threadapi_pthreads.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = threadapi_pthreads.c; sourceTree = "<group>"; };
+		1AEFB1571D53B30300A0FB92 /* tickcounter_linux.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tickcounter_linux.c; sourceTree = "<group>"; };
+		1AEFB15B1D53B30300A0FB92 /* uniqueid_linux.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uniqueid_linux.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1ADB74111D3EC82B00422EFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AA911641D540ABF008F7906 /* openssl.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AA911661D596EAA008F7906 /* certs */ = {
+			isa = PBXGroup;
+			children = (
+				1AA911671D596EAA008F7906 /* certs.c */,
+				1AA911681D596EAA008F7906 /* certs.h */,
+				1AA911691D596EAA008F7906 /* ms.der */,
+			);
+			path = certs;
+			sourceTree = "<group>";
+		};
+		1ADB740B1D3EC82B00422EFA = {
+			isa = PBXGroup;
+			children = (
+				1ADB74161D3EC82B00422EFA /* AzureIoT */,
+				1AA911661D596EAA008F7906 /* certs */,
+				1AEFB13C1D53B30300A0FB92 /* shared-util-adapters */,
+				1ADB74A71D3ECBF700422EFA /* azure-umqtt-c */,
+				1ADB74371D3ECA9400422EFA /* azure-c-shared-utility */,
+				1ADB74201D3EC85D00422EFA /* azure_iot_client */,
+				1ADB74151D3EC82B00422EFA /* Products */,
+				1AA911621D540ABF008F7906 /* openssl.framework */,
+			);
+			sourceTree = "<group>";
+		};
+		1ADB74151D3EC82B00422EFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1ADB74141D3EC82B00422EFA /* libAzureIoT.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1ADB74161D3EC82B00422EFA /* AzureIoT */ = {
+			isa = PBXGroup;
+			children = (
+				1ADB74171D3EC82B00422EFA /* AzureIoT.h */,
+				1ADB74191D3EC82B00422EFA /* AzureIoT.m */,
+			);
+			path = AzureIoT;
+			sourceTree = "<group>";
+		};
+		1ADB74201D3EC85D00422EFA /* azure_iot_client */ = {
+			isa = PBXGroup;
+			children = (
+				1ADB74211D3EC85D00422EFA /* blob.c */,
+				1ADB74221D3EC85D00422EFA /* iothub_client.c */,
+				1ADB74231D3EC85D00422EFA /* iothub_client_ll.c */,
+				1ADB74251D3EC85D00422EFA /* iothub_message.c */,
+				1ADB74261D3EC85D00422EFA /* iothubtransport.c */,
+				1ADB74271D3EC85D00422EFA /* iothubtransportamqp.c */,
+				1ADB74291D3EC85D00422EFA /* iothubtransporthttp.c */,
+				1ADB742A1D3EC85D00422EFA /* iothubtransportmqtt.c */,
+				1ADB742B1D3EC85D00422EFA /* version.c */,
+			);
+			name = azure_iot_client;
+			path = ../../iothub_client/src;
+			sourceTree = "<group>";
+		};
+		1ADB74371D3ECA9400422EFA /* azure-c-shared-utility */ = {
+			isa = PBXGroup;
+			children = (
+				1A5F116A1D5ABAB000BEB5B6 /* optionhandler.c */,
+				1A5F116B1D5ABAB000BEB5B6 /* x509_openssl.c */,
+				1ADB74381D3ECA9400422EFA /* base64.c */,
+				1ADB74391D3ECA9400422EFA /* buffer.c */,
+				1ADB743A1D3ECA9400422EFA /* consolelogger.c */,
+				1ADB743B1D3ECA9400422EFA /* constbuffer.c */,
+				1ADB743C1D3ECA9400422EFA /* constmap.c */,
+				1ADB743D1D3ECA9400422EFA /* crt_abstractions.c */,
+				1ADB743E1D3ECA9400422EFA /* doublylinkedlist.c */,
+				1ADB743F1D3ECA9400422EFA /* gb_stdio.c */,
+				1ADB74401D3ECA9400422EFA /* gb_time.c */,
+				1ADB74411D3ECA9400422EFA /* gballoc.c */,
+				1ADB74421D3ECA9400422EFA /* hmac.c */,
+				1ADB74431D3ECA9400422EFA /* hmacsha256.c */,
+				1ADB74441D3ECA9400422EFA /* httpapiex.c */,
+				1ADB74451D3ECA9400422EFA /* httpapiexsas.c */,
+				1ADB74461D3ECA9400422EFA /* httpheaders.c */,
+				1ADB74471D3ECA9400422EFA /* list.c */,
+				1ADB74481D3ECA9400422EFA /* map.c */,
+				1ADB74491D3ECA9400422EFA /* sastoken.c */,
+				1ADB744A1D3ECA9400422EFA /* sha1.c */,
+				1ADB744B1D3ECA9400422EFA /* sha224.c */,
+				1ADB744C1D3ECA9400422EFA /* sha384-512.c */,
+				1ADB744D1D3ECA9400422EFA /* string_tokenizer.c */,
+				1ADB744E1D3ECA9400422EFA /* strings.c */,
+				1ADB744F1D3ECA9400422EFA /* tlsio_openssl.c */,
+				1ADB74521D3ECA9400422EFA /* urlencode.c */,
+				1ADB74531D3ECA9400422EFA /* usha.c */,
+				1ADB74541D3ECA9400422EFA /* vector.c */,
+				1ADB74551D3ECA9400422EFA /* xio.c */,
+				1ADB74561D3ECA9400422EFA /* xlogging.c */,
+			);
+			name = "azure-c-shared-utility";
+			path = "../../azure-c-shared-utility/src";
+			sourceTree = "<group>";
+		};
+		1ADB74A71D3ECBF700422EFA /* azure-umqtt-c */ = {
+			isa = PBXGroup;
+			children = (
+				1ADB74A81D3ECBF700422EFA /* mqtt_client.c */,
+				1ADB74A91D3ECBF700422EFA /* mqtt_codec.c */,
+				1ADB74AA1D3ECBF700422EFA /* mqtt_message.c */,
+			);
+			name = "azure-umqtt-c";
+			path = "../../azure-umqtt-c/src";
+			sourceTree = "<group>";
+		};
+		1AEFB13C1D53B30300A0FB92 /* shared-util-adapters */ = {
+			isa = PBXGroup;
+			children = (
+				1A5F11681D5AB6CD00BEB5B6 /* mach_gettime.c */,
+				1AEFB13D1D53B30300A0FB92 /* agenttime.c */,
+				1AEFB13F1D53B30300A0FB92 /* condition_pthreads.c */,
+				1AEFB1421D53B30300A0FB92 /* httpapi_compact.c */,
+				1AEFB1481D53B30300A0FB92 /* lock_pthreads.c */,
+				1AEFB14B1D53B30300A0FB92 /* platform_linux.c */,
+				1AEFB14F1D53B30300A0FB92 /* socketio_berkeley.c */,
+				1AEFB1541D53B30300A0FB92 /* threadapi_pthreads.c */,
+				1AEFB1571D53B30300A0FB92 /* tickcounter_linux.c */,
+				1AEFB15B1D53B30300A0FB92 /* uniqueid_linux.c */,
+			);
+			name = "shared-util-adapters";
+			path = "../../azure-c-shared-utility/adapters";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1ADB74131D3EC82B00422EFA /* AzureIoT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1ADB741D1D3EC82B00422EFA /* Build configuration list for PBXNativeTarget "AzureIoT" */;
+			buildPhases = (
+				1ADB74101D3EC82B00422EFA /* Sources */,
+				1ADB74111D3EC82B00422EFA /* Frameworks */,
+				1ADB74121D3EC82B00422EFA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AzureIoT;
+			productName = AzureIoT;
+			productReference = 1ADB74141D3EC82B00422EFA /* libAzureIoT.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1ADB740C1D3EC82B00422EFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Microsoft;
+				TargetAttributes = {
+					1ADB74131D3EC82B00422EFA = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 1ADB740F1D3EC82B00422EFA /* Build configuration list for PBXProject "AzureIoT" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1ADB740B1D3EC82B00422EFA;
+			productRefGroup = 1ADB74151D3EC82B00422EFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1ADB74131D3EC82B00422EFA /* AzureIoT */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1ADB74101D3EC82B00422EFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ADB74721D3ECA9400422EFA /* usha.c in Sources */,
+				1AEFB1771D53B30300A0FB92 /* tickcounter_linux.c in Sources */,
+				1ADB74751D3ECA9400422EFA /* xlogging.c in Sources */,
+				1AEFB1631D53B30300A0FB92 /* httpapi_compact.c in Sources */,
+				1AEFB1601D53B30300A0FB92 /* condition_pthreads.c in Sources */,
+				1ADB74611D3ECA9400422EFA /* hmac.c in Sources */,
+				1ADB74631D3ECA9400422EFA /* httpapiex.c in Sources */,
+				1ADB742C1D3EC85D00422EFA /* blob.c in Sources */,
+				1ADB74AC1D3ECBF700422EFA /* mqtt_codec.c in Sources */,
+				1ADB74311D3EC85D00422EFA /* iothubtransport.c in Sources */,
+				1ADB745E1D3ECA9400422EFA /* gb_stdio.c in Sources */,
+				1A5F116E1D5ABAB000BEB5B6 /* x509_openssl.c in Sources */,
+				1ADB74741D3ECA9400422EFA /* xio.c in Sources */,
+				1ADB745D1D3ECA9400422EFA /* doublylinkedlist.c in Sources */,
+				1ADB742D1D3EC85D00422EFA /* iothub_client.c in Sources */,
+				1AA9116A1D596EAA008F7906 /* certs.c in Sources */,
+				1ADB74591D3ECA9400422EFA /* consolelogger.c in Sources */,
+				1ADB746C1D3ECA9400422EFA /* string_tokenizer.c in Sources */,
+				1ADB74621D3ECA9400422EFA /* hmacsha256.c in Sources */,
+				1ADB74351D3EC85D00422EFA /* iothubtransportmqtt.c in Sources */,
+				1ADB74711D3ECA9400422EFA /* urlencode.c in Sources */,
+				1AEFB17B1D53B30300A0FB92 /* uniqueid_linux.c in Sources */,
+				1ADB745F1D3ECA9400422EFA /* gb_time.c in Sources */,
+				1ADB74661D3ECA9400422EFA /* list.c in Sources */,
+				1A5F116D1D5ABAB000BEB5B6 /* optionhandler.c in Sources */,
+				1ADB74601D3ECA9400422EFA /* gballoc.c in Sources */,
+				1ADB746A1D3ECA9400422EFA /* sha224.c in Sources */,
+				1ADB74731D3ECA9400422EFA /* vector.c in Sources */,
+				1ADB74361D3EC85D00422EFA /* version.c in Sources */,
+				1ADB74641D3ECA9400422EFA /* httpapiexsas.c in Sources */,
+				1ADB74AB1D3ECBF700422EFA /* mqtt_client.c in Sources */,
+				1ADB74AD1D3ECBF700422EFA /* mqtt_message.c in Sources */,
+				1A5F11691D5AB6CD00BEB5B6 /* mach_gettime.c in Sources */,
+				1ADB746B1D3ECA9400422EFA /* sha384-512.c in Sources */,
+				1AEFB16C1D53B30300A0FB92 /* platform_linux.c in Sources */,
+				1ADB74651D3ECA9400422EFA /* httpheaders.c in Sources */,
+				1ADB74301D3EC85D00422EFA /* iothub_message.c in Sources */,
+				1ADB74581D3ECA9400422EFA /* buffer.c in Sources */,
+				1ADB74321D3EC85D00422EFA /* iothubtransportamqp.c in Sources */,
+				1ADB745B1D3ECA9400422EFA /* constmap.c in Sources */,
+				1ADB741A1D3EC82B00422EFA /* AzureIoT.m in Sources */,
+				1ADB745C1D3ECA9400422EFA /* crt_abstractions.c in Sources */,
+				1ADB742E1D3EC85D00422EFA /* iothub_client_ll.c in Sources */,
+				1ADB746D1D3ECA9400422EFA /* strings.c in Sources */,
+				1ADB74571D3ECA9400422EFA /* base64.c in Sources */,
+				1ADB74341D3EC85D00422EFA /* iothubtransporthttp.c in Sources */,
+				1AEFB15E1D53B30300A0FB92 /* agenttime.c in Sources */,
+				1ADB746E1D3ECA9400422EFA /* tlsio_openssl.c in Sources */,
+				1ADB74671D3ECA9400422EFA /* map.c in Sources */,
+				1ADB745A1D3ECA9400422EFA /* constbuffer.c in Sources */,
+				1ADB74681D3ECA9400422EFA /* sastoken.c in Sources */,
+				1AEFB1701D53B30300A0FB92 /* socketio_berkeley.c in Sources */,
+				1AEFB1691D53B30300A0FB92 /* lock_pthreads.c in Sources */,
+				1AEFB1741D53B30300A0FB92 /* threadapi_pthreads.c in Sources */,
+				1ADB74691D3ECA9400422EFA /* sha1.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1ADB741B1D3EC82B00422EFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					"DONT_USE_UPLOADTOBLOB=1",
+					TARGET_OS_IPHONE,
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "../OpenSSL-for-iPhone-master/include curl/ios-arm64-dev ../../iothub_client/inc ../../azure-c-shared-utility/inc ../../azure-umqtt-c/inc ../../azure-uamqp-c/inc ../../azure-uamqp-c/libwebsockets";
+			};
+			name = Debug;
+		};
+		1ADB741C1D3EC82B00422EFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "../OpenSSL-for-iPhone-master/include curl/ios-arm64-dev ../../iothub_client/inc ../../azure-c-shared-utility/inc ../../azure-umqtt-c/inc ../../azure-uamqp-c/inc ../../azure-uamqp-c/libwebsockets";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1ADB741E1D3EC82B00422EFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1ADB741F1D3EC82B00422EFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1ADB740F1D3EC82B00422EFA /* Build configuration list for PBXProject "AzureIoT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ADB741B1D3EC82B00422EFA /* Debug */,
+				1ADB741C1D3EC82B00422EFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1ADB741D1D3EC82B00422EFA /* Build configuration list for PBXNativeTarget "AzureIoT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ADB741E1D3EC82B00422EFA /* Debug */,
+				1ADB741F1D3EC82B00422EFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1ADB740C1D3EC82B00422EFA /* Project object */;
+}

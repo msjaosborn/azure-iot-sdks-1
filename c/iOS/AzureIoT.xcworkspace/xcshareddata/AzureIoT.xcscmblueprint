@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "5411F5772D0A13698869E122188A8DACF6CF841F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "3D4C1E7AA03CC837211659F9E4E961761BEFCD83" : 0,
+    "81C8BF857D6B92AE520F0ED2270E304C544D0980" : 0,
+    "5411F5772D0A13698869E122188A8DACF6CF841F" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F158DBBF-9D95-4AAB-B6B3-52DC8AE3F7F1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "3D4C1E7AA03CC837211659F9E4E961761BEFCD83" : "azure-iot-sdks\/c\/azure-c-shared-utility\/",
+    "81C8BF857D6B92AE520F0ED2270E304C544D0980" : "azure-iot-sdks\/c\/azure-umqtt-c\/",
+    "5411F5772D0A13698869E122188A8DACF6CF841F" : "azure-iot-sdks\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "AzureIoT",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "c\/iOS\/AzureIoT.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Azure\/azure-c-shared-utility.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3D4C1E7AA03CC837211659F9E4E961761BEFCD83"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/msjaosborn\/azure-iot-sdks-1.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5411F5772D0A13698869E122188A8DACF6CF841F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Azure\/azure-umqtt-c.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "81C8BF857D6B92AE520F0ED2270E304C544D0980"
+    }
+  ]
+}
